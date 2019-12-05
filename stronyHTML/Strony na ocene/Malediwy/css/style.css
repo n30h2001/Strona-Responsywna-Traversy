@@ -1,0 +1,83 @@
+body{
+  font-family: verdana, monospace, sans-serif;
+  font-size:15px;
+  line-height:1.5;
+  padding:0;
+  margin:0;
+  background-color:#f4f4f4;
+}
+
+/*global*/
+.conteiner{
+  width:80%;
+  margin:auto;
+  overflow:hidden;
+}
+
+ul{
+  margin:0;
+  padding:0;
+}
+
+/*header*/
+header{
+  background: #00ddff;
+  color: #1f1f1f;
+  padding-top:10px;
+  min-height:70px;
+  border-bottom:#00879c 3px solid;
+}
+
+header a{
+  color: #1f1f1f;
+  text-decoration:none;
+  text-transform:uppercase;
+  font-size:16px;
+}
+
+header li{
+  float:left;
+  display:inline;
+  padding: 0 20px 0 20px;
+}
+
+header nav{
+  float: right;
+  margin-top: 0px;
+}
+
+/*showcase*/
+#showcase{
+  min-height: 400px;
+  background:url('../img/background_malediwy.png') no-repeat 0 -350px;
+  text-align: center;
+  color: #ffffff;
+}
+
+#showcase h1{
+  margin-top: 0;
+  font-size: 55px;
+  margin-bottom: 10px;
+  text-shadow: 4px 3px black;
+}
+
+#showcase p{
+  font-size: 20px;
+  text-shadow: 3px 5px 12px black;
+}
+
+/*Info*/
+#PodstawoweInformacje, #Historia, #Religia, #Natura{
+  margin: 0 25px 0 25px;
+  padding: 5px;
+  color: #000000;
+}
+
+
+
+/*Footer*/
+footer{
+  text-align: center;
+  background-color: #00ddff;
+  padding: 10px;
+}

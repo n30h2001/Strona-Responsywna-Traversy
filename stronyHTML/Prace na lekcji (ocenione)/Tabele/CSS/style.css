@@ -1,0 +1,15 @@
+/* Komentarz */
+
+table, th, td{
+  border: 1px solid #000;
+  /* Ramki */
+  border-collapse: collapse;
+  /* Pojedyńcza Ramka */
+  padding:5px 10px;
+  /* Margines wewnętrzny */
+  text-align: left;
+ }
+
+thead{
+  background-color: #bfbfbf;
+}
